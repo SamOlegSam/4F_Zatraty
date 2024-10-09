@@ -1,0 +1,23 @@
+﻿
+<table class="table table-striped">
+    <tr>
+        <th>№ п/п</th>
+        <th>Наименование показателя</th>
+        <th>Сумма</th>
+    </tr>
+    @foreach (var item in ViewBag.listufGroup)
+    {
+        <tr>
+            <td colspan="3"><center><b>@item.Key</b></center></td>
+        </tr>
+       @foreach(var it in item)
+       {
+           <tr>
+           <td>1</td>
+                <td>@it.expenses</td>
+                <td>@it.value</td>
+            </tr>
+       }
+    }
+
+</table>

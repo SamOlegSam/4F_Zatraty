@@ -1,0 +1,121 @@
+﻿@model ZatratyCore.Models.VMLogin;
+@{
+    Layout = null;
+}
+
+<html>
+ <head>
+   <meta charset="UTF-8">
+ </head>
+ 
+ <style>
+
+body {
+         /* display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh; */
+         margin: 30px;
+ }
+
+    .cost {
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        margin: auto auto;
+        background-color: #f1f4f7;
+        border-radius: 10px;
+        width: 20%;
+        margin-top: 100px;
+        /* position: fixed; */
+        /* top: 50%; */
+        left: 50%;
+        right: 50%;
+        /* transform: translate(-50%, -50%); */
+        box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    }
+
+    .mainhead {
+        font-size: 1.8rem;
+        color: #8E07C9;
+    }
+    .name4F {
+        color: #8E07C9;
+        margin-top: 50px;
+        font-size: 1.8rem;
+        line-height: 60%;
+        text-shadow: 8px 3px 3px #b0b0b3;
+    }
+
+    .headdrug {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logotip {
+        padding-right: 20px;
+
+ </style>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body style="background-image: url(/Images/fon111.jpg); background-size: 100%;">
+    <center>
+        <div class="headdrug">
+            <img src="/Images/drug.png" width=70px class="logotip" alt="" />
+            <h1 class="mainhead">ОАО "Гомельтранснефть Дружба"</h1>
+        </div>
+    </center>
+    <hr/>
+    <center><div class="name4F">
+        <h1>Затраты по видам деятельности </h1>
+        <h1>4-Ф (затраты), 12-Ф (прибыль) </h1>
+        </div>
+    </center>
+    <div class="container cost" style="border:solid; border-color:grey; border-radius:5px; padding:5px; background-color:#F6F8F9;">
+    <form asp-controller="Account" asp-action="Login" method="post">
+        <center><h1>Авторизация</h1></center>
+        <input type="text" placeholder="Имя пользователя" required asp-for="Login"/>
+        <input type="password" placeholder="Password" required asp-for="PassWord"/>
+                
+        <button type="submit">Войти</button>
+
+        @if (ViewData["ValidateMessage"] != null)
+        {
+            <br />
+            <br />
+            <center><label>@ViewData["ValidateMessage"]</label></center>
+        }
+
+    </form>
+    </div>
+</body>
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+        background-color: #C133FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+</style>

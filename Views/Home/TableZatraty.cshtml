@@ -1,0 +1,344 @@
+﻿
+<table class="table table-sm" id="mytab">
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            № п/п
+        </th>
+        <th>
+            Наименование показателя
+        </th>
+
+        <th>
+            ВСЕГО по филиалу
+        </th>
+        @foreach (var it in ViewBag.roles)
+        {
+            <th>
+                @it.Plans.Name
+            </th>
+        }
+    </tr>
+    @{
+        int count = 0;
+        string parName = "";
+    }
+
+@* ----------------------------------------------------------------------------------------------------------------------- *@
+
+@if (ViewBag.list4fGroup != null)
+{
+        @foreach (var item in Model)
+        {
+            if (item.Sort == 1)
+            {
+                count++;
+            }
+
+            <tr>
+                <td>
+                    @item.Id
+                </td>
+                @if (item.Sort == 1)
+                {
+                    <td>
+                        @count
+                    </td>
+                }
+                else
+                {
+                    <td>
+                    </td>
+                }
+                @if (item.Sort == 1)
+                {
+                    <td><b>@item.Name</b></td>
+                }
+                else if (item.Sort == 2)
+                {
+                    <td>@item.Name</td>
+                }
+                else if (item.Sort == 3)
+                {
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><i> @item.Name</i></b></td>
+                }
+                else if (item.Sort == 4)
+                {
+                    <td><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; @item.Name</i></td>
+                }
+                else
+                {
+                    <td><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @item.Name</i></td>
+                }
+
+                <td>
+                    <input type="number" class="form-control btn-block" id="@item.Id _77" readonly />
+
+                </td>
+                @foreach (var it in ViewBag.roles)
+                {         
+                    decimal? val = null;
+                    string str = "";
+                    foreach (var ttt in ViewBag.list4f)
+                    {
+                        
+                        if (ttt.PlanId != null)
+                        {
+                            if (ttt.ExpensesId == item.Id && ttt.PlanId == it.PlansId) 
+                            
+                            {
+                                if (ttt.Value != null)
+                                {
+                                    val = ttt.Value;
+                                    str = Convert.ToString(ttt.Value).Replace(",",".");
+                                }
+                                else
+                                {
+                                    val = null;
+                                }
+                            }                             
+                        }   
+                    }
+
+                    if (item.Sort == 1)
+                    {
+                        <td>
+                            <input type="number" step="0.01" class="form-control btn-block" id="@item.Id _@it.Plans.Id" readonly value=@string.Format("{0:f2}", str == null ? "" : str) />
+                        </td>
+                    }
+                    else
+                    {                        
+                        <td>
+                            <input type="number" step="0.01" class="form-control btn-block" id="@item.Id _@it.Plans.Id" value="@str" />
+                            @* <input type="number" step="0.01" class="form-control btn-block" id="@item.Id _@it.Plans.Id" value=@string.Format("{0:f2}", val == null ? "" : val) /> *@
+                        </td>
+                    }
+                }
+
+            </tr>
+
+        }
+        @* ------------------------------------------------------------------------------------------------------ *@
+}
+else
+{
+
+    @foreach (var item in Model)
+    {
+        if (item.Sort == 1)
+        {
+            count++;
+        }
+
+        <tr>
+            <td>
+                @item.Id
+            </td>
+            @if (item.Sort == 1)
+            {
+                <td>
+                    @count
+                </td>
+            }
+            else
+            {
+                <td>
+                </td>
+            }
+            @if (item.Sort == 1)
+            {
+                <td><b>@item.Name</b></td>
+            }
+            else if (item.Sort == 2)
+            {
+                <td>@item.Name</td>
+            }
+            else if (item.Sort == 3)
+            {
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><i> @item.Name</i></b></td>
+            }
+            else if (item.Sort == 4)
+            {
+                <td><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; @item.Name</i></td>
+            }
+            else
+            {
+                <td><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @item.Name</i></td>
+            }
+
+            <td>
+                <input type="number" class="form-control btn-block" id="@item.Id _77" readonly />
+
+            </td>
+            @foreach (var it in ViewBag.roles)
+            {
+                if (item.Sort == 1)
+                {
+                    <td>
+                        <input type="number" class="form-control btn-block" id="@item.Id _@it.Plans.Id" readonly />
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        <input type="number" class="form-control btn-block" id="@item.Id _@it.Plans.Id" />
+                    </td>
+                }
+
+            }
+
+        </tr>
+
+    } 
+}
+</table>
+<hr />
+
+    <td>
+    <center>
+        <button id="butt1" type="button" class="btn btn-icon waves-effect waves-light btn-warning" onclick="TableSave()"> <i class="mdi mdi-settings"></i>Сохранить данные</button>        
+    </center>
+    </td>
+
+@* <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+</script> *@
+
+<script>
+    var table = document.querySelector('#mytab');
+    var rows = table.querySelectorAll('tr');
+    var countcells = 0;
+    for (var i = 2; i < rows.length; i++) {
+        var cellss = rows[i].querySelectorAll('td');
+        countcells = cellss.length;
+        var SummRow = 0;
+        for (var item = 2; item < cellss.length; item++) {
+            if (item > 3) {
+
+                var input = cellss[item].querySelector('input');
+                if (!isNaN(input.value)) {
+                    SummRow = SummRow + Number(input.value)
+                }
+            }
+            if (SummRow != 0) {
+                cellss[3].querySelector('input').value = SummRow.toFixed(2);
+            }
+            else {
+                cellss[3].querySelector('input').value = '';
+            }
+        }
+    }
+</script>
+
+
+<script>
+
+    var table = document.querySelector('#mytab');
+    var rows = table.querySelectorAll('tr');
+
+    table.addEventListener("change", updateValue111);
+
+
+    function updateValue111(e) {
+        var countcells = 0;
+        for (var i = 2; i < rows.length; i++) {
+            var cellss = rows[i].querySelectorAll('td');
+            countcells = cellss.length;
+            var SummRow = 0;
+            for (var item = 2; item < cellss.length; item++) {
+                if (item > 3) {
+
+                    var input = cellss[item].querySelector('input');
+                    if (!isNaN(input.value)) {
+                        SummRow = SummRow + Number(input.value)
+                    }
+                }
+                if (SummRow != 0) {
+                    cellss[3].querySelector('input').value = SummRow.toFixed(2);
+                }
+                else {
+                    cellss[3].querySelector('input').value = '';
+                }
+            }
+        }
+    }
+    //-----Теперь проходим по таблице вертикально (по столбцам)----------------
+
+    table.addEventListener("change", updateValue1);
+    function updateValue1(e) {
+
+        var cellsss = rows[1].querySelectorAll('td');
+
+        for (var itemi = 3; itemi < cellsss.length; itemi++) {
+            var sum1 = 0;  //Объем производства продукции в текущих ценах за вычетом начисленных налогов и сборов из выручки (строка 001 ФОРМЫ 4Ф)
+            var Sum4 = 0;
+            var Sum6 = 0;
+            var Sum7 = 0;
+            var Sum34 = 0;
+
+            for (var it = 2; it < rows.length; it++) {
+                var elem2 = Number(table.rows[2].cells[itemi].querySelector('input').value);
+                var elem3 = Number(table.rows[3].cells[itemi].querySelector('input').value);
+                var elem4 = Number(table.rows[4].cells[itemi].querySelector('input').value);
+                var elem5 = Number(table.rows[5].cells[itemi].querySelector('input').value);
+                var elem6 = Number(table.rows[6].cells[itemi].querySelector('input').value);
+                var elem7 = Number(table.rows[7].cells[itemi].querySelector('input').value);
+                var elem8 = Number(table.rows[8].cells[itemi].querySelector('input').value);
+                var elem11 = Number(table.rows[11].cells[itemi].querySelector('input').value);
+                var elem12 = Number(table.rows[12].cells[itemi].querySelector('input').value);
+                var elem15 = Number(table.rows[15].cells[itemi].querySelector('input').value);
+                var elem16 = Number(table.rows[16].cells[itemi].querySelector('input').value);
+                var elem18 = Number(table.rows[18].cells[itemi].querySelector('input').value);
+                var elem19 = Number(table.rows[19].cells[itemi].querySelector('input').value);
+                var elem20 = Number(table.rows[20].cells[itemi].querySelector('input').value);
+                var elem21 = Number(table.rows[21].cells[itemi].querySelector('input').value);
+                var elem24 = Number(table.rows[24].cells[itemi].querySelector('input').value);
+
+                if (!isNaN(elem2) && !isNaN(elem3) && !isNaN(elem5)) {
+                    Sum1 = elem2 - elem3 - elem5;
+                }
+
+                if (!isNaN(elem5) && !isNaN(elem6)) {
+                    Sum4 = elem5 + elem6;
+                }
+
+                if (!isNaN(elem7) && !isNaN(elem19) && !isNaN(elem20) && !isNaN(elem21) && !isNaN(elem24)) {
+                    Sum6 = elem7 + elem19 + elem20 + elem21 + elem24;
+                }
+
+                if (!isNaN(elem8) && !isNaN(elem11) && !isNaN(elem12) && !isNaN(elem15) && !isNaN(elem16) && !isNaN(elem18)) {
+                    Sum7 = elem8 + elem11 + elem12 + elem15 + elem16 + elem18;
+                }
+
+                if (!isNaN(elem2) && !isNaN(elem3) && !isNaN(elem4)) {
+                    Sum34 = elem2 - elem3 - elem4;
+                }
+
+                if (table.rows[it].cells[itemi].querySelector('input').value) {
+                    console.log("Столбец: " + it + " - " + itemi);
+                    console.log("table.rows[it].cells[itemi].value", table.rows[it].cells[itemi].querySelector('input').value);
+                }
+            }
+
+            if (Sum1 != 0) {
+                table.rows[1].cells[itemi].querySelector('input').value = Sum1.toFixed(2);
+                table.rows[4].cells[itemi].querySelector('input').value = Sum4.toFixed(2);
+                table.rows[6].cells[itemi].querySelector('input').value = Sum6.toFixed(2);
+                table.rows[7].cells[itemi].querySelector('input').value = Sum7.toFixed(2);
+                table.rows[34].cells[itemi].querySelector('input').value = Sum34.toFixed(2);
+            }
+            else {
+                table.rows[1].cells[itemi].querySelector('input').value = "";
+                table.rows[4].cells[itemi].querySelector('input').value = "";
+                table.rows[6].cells[itemi].querySelector('input').value = "";
+                table.rows[7].cells[itemi].querySelector('input').value = "";
+                table.rows[34].cells[itemi].querySelector('input').value = "";
+            }
+        }
+
+    }
+    //-------------------------------------------------------------------------
+</script>

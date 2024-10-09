@@ -1,0 +1,565 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ZatratyCore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ZatratyCore.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\SK.png",
+      "PackagePath": "staticwebassets\\Images\\SK.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\Slider\\0001.jpg",
+      "PackagePath": "staticwebassets\\Images\\Slider\\0001.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\Slider\\0002.jpg",
+      "PackagePath": "staticwebassets\\Images\\Slider\\0002.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\Slider\\0003.jpg",
+      "PackagePath": "staticwebassets\\Images\\Slider\\0003.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\Slider\\0004.jpg",
+      "PackagePath": "staticwebassets\\Images\\Slider\\0004.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\Slider\\0005.jpg",
+      "PackagePath": "staticwebassets\\Images\\Slider\\0005.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\Slider\\0006.jpg",
+      "PackagePath": "staticwebassets\\Images\\Slider\\0006.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\Slider\\0007.jpg",
+      "PackagePath": "staticwebassets\\Images\\Slider\\0007.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\drug.png",
+      "PackagePath": "staticwebassets\\Images\\drug.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon10.png",
+      "PackagePath": "staticwebassets\\Images\\fon10.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon111.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon111.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon2.png",
+      "PackagePath": "staticwebassets\\Images\\fon2.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon3.png",
+      "PackagePath": "staticwebassets\\Images\\fon3.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon4.png",
+      "PackagePath": "staticwebassets\\Images\\fon4.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon5.png",
+      "PackagePath": "staticwebassets\\Images\\fon5.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon6.png",
+      "PackagePath": "staticwebassets\\Images\\fon6.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon7.png",
+      "PackagePath": "staticwebassets\\Images\\fon7.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon777.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon777.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon8.png",
+      "PackagePath": "staticwebassets\\Images\\fon8.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon9.png",
+      "PackagePath": "staticwebassets\\Images\\fon9.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\1644866218_2-phonoteka-org-p-zadnii-fon-cherno-belii-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\1644866218_2-phonoteka-org-p-zadnii-fon-cherno-belii-2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\4907157.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\4907157.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\abstract_background_with_stipple_design_2102.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\abstract_background_with_stipple_design_2102.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg1.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg1.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg10.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg10.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg11.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg11.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg12.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg12.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg13.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg13.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg14.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg14.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg15.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg15.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg16.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg16.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg17.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg17.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg18.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg18.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg19.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg19.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg2.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg2.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg20.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg20.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg21.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg21.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg22.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg22.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg23.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg23.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg24.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg24.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg25.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg25.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg26.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg26.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg27.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg27.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg28.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg28.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg29.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg29.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg3.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg3.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg30.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg30.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg31.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg31.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg32.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg32.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg33.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg33.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg34.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg34.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg35.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg35.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg36.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg36.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg37.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg37.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg38.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg38.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg39.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg39.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg4.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg4.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg40.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg40.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg41.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg41.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg42.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg42.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg43.jpg",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg43.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg5.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg5.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg6.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg6.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg7.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg7.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg8.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg8.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\fon\\bg9.png",
+      "PackagePath": "staticwebassets\\Images\\fon\\bg9.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\logo2.png",
+      "PackagePath": "staticwebassets\\Images\\logo2.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\milograd.png",
+      "PackagePath": "staticwebassets\\Images\\milograd.png"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\sea.mp4",
+      "PackagePath": "staticwebassets\\Images\\sea.mp4"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Images\\sea1.gif",
+      "PackagePath": "staticwebassets\\Images\\sea1.gif"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Report\\Prezentation.pdf",
+      "PackagePath": "staticwebassets\\Report\\Prezentation.pdf"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Report\\ReportFilialyExcel.xlsx",
+      "PackagePath": "staticwebassets\\Report\\ReportFilialyExcel.xlsx"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Report\\ReportSummExcel.xlsx",
+      "PackagePath": "staticwebassets\\Report\\ReportSummExcel.xlsx"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Report\\ReportSvodExcel.xlsx",
+      "PackagePath": "staticwebassets\\Report\\ReportSvodExcel.xlsx"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\Report\\ReportZatratyExcel.xlsx",
+      "PackagePath": "staticwebassets\\Report\\ReportZatratyExcel.xlsx"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\ZatratyCore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ZatratyCore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ZatratyCore.props",
+      "PackagePath": "build\\ZatratyCore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ZatratyCore.props",
+      "PackagePath": "buildMultiTargeting\\ZatratyCore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ZatratyCore.props",
+      "PackagePath": "buildTransitive\\ZatratyCore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

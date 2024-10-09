@@ -1,0 +1,195 @@
+﻿@model IEnumerable<ZatratyCore.Models.Expense>
+
+<div id="ServicesModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content" id='ServicesModalContent'>
+        </div>
+    </div>
+</div>
+
+<div id="ServicesModalDelete" class="modal fade">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content" id='ServicesModalDeleteContent'>
+        </div>
+    </div>
+</div>
+
+<style>
+    .one {
+        padding-left: 10px;
+    }
+
+    .two {
+        padding-left: 20px;
+    }
+
+    .three {
+        padding-left: 30px;
+    }
+
+    .four {
+        padding-left: 40px;
+    }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+    $(function () {
+        $(document).on("input", ".mat_count input", function () {
+            console.log("dot this");
+            var count = $('[id^="count"]').val(0),
+                len = count.length;
+            $(".mat_count input").each(function (i, el) {
+                i %= len;
+                count[i].value -= -(+el.value || 0)
+            })
+        })
+    });
+
+</script>
+
+
+
+<center>
+    <table style="width:900px;">
+        <tr style="margin:10px;">
+
+
+            <td>
+                <center><label>С</label></center>
+            </td>
+
+            <td>
+                <label>&nbsp;&nbsp;</label>
+            </td>
+
+            <td>
+                <center><label>По</label></center>
+            </td>
+
+            <td>
+                <label>&nbsp;&nbsp;</label>
+            </td>
+
+            <td>
+                <center><label>Год</label></center>
+            </td>
+
+            <td>
+                <label>&nbsp;&nbsp;</label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <select class="form-select" aria-label="Default select example" id="S">
+                    <option selected value="1">Январь</option>
+                    <option value="2">Февраль</option>
+                    <option value="3">Март</option>
+                    <option value="4">Апрель</option>
+                    <option value="5">Май</option>
+                    <option value="6">Июнь</option>
+                    <option value="7">Июль</option>
+                    <option value="8">Август</option>
+                    <option value="9">Сентябрь</option>
+                    <option value="10">Октябрь</option>
+                    <option value="11">Ноябрь</option>
+                    <option value="12">Декабрь</option>
+                </select>
+            </td>
+
+            <td>
+                <label>&nbsp;&nbsp;</label>
+            </td>
+
+            <td>
+                <select class="form-select" aria-label="Default select example" id="Po">
+                    <option selected value="1">Январь</option>
+                    <option value="2">Февраль</option>
+                    <option value="3">Март</option>
+                    <option value="4">Апрель</option>
+                    <option value="5">Май</option>
+                    <option value="6">Июнь</option>
+                    <option value="7">Июль</option>
+                    <option value="8">Август</option>
+                    <option value="9">Сентябрь</option>
+                    <option value="10">Октябрь</option>
+                    <option value="11">Ноябрь</option>
+                    <option value="12">Декабрь</option>
+                </select>
+            </td>
+
+            <td>
+                <label>&nbsp;&nbsp;</label>
+            </td>
+
+            <td>
+                <input type="text" class="form-control btn-block" id="Year" style="width:150px;" />
+                <script>
+                    var D = new Date();
+                    D.setMonth(D.getMonth() + 1);
+                    var month = D.getMonth() + 1; if (month < 10) month = '0' + month;
+                    var year = D.getFullYear();
+                    var Dat = new Date(year + "-" + month + "-01");
+                    document.getElementById("Year").value = year;
+                </script>
+            </td>
+
+            <td>
+                <label>&nbsp;&nbsp;</label>
+            </td>
+
+            <td>
+                <button id="butt1" type="button" class="btn btn-icon waves-effect waves-light btn-warning" onclick="HtmlZatraty()"> <i class="mdi mdi-settings"></i>Сформировать</button>
+            </td>
+            <td>
+                <button id="butt1" type="button" class="btn btn-icon waves-effect waves-light btn-warning" onclick="ZatratyExcel()"> <i class="mdi mdi-settings"></i>Печать(.xlsx)</button>
+            </td>
+            <td>
+                <label>&nbsp;&nbsp;</label>
+            </td>
+
+        </tr>
+    </table>
+</center>
+<hr/>
+        @{
+            int u = 0;
+        }
+        <center>
+<table id="RT">
+        <tr style="background-color:transparent">
+            @foreach (var item in ViewBag.plans)
+            {
+                u++;
+                <td>
+                    <input type="checkbox" checked id="role_@u" class="checkbox" name="inList" value="@item.Id">
+                </td>
+                <td>&nbsp;&nbsp;</td>
+                <td>
+                    @item.Name
+                </td>
+                <td>&nbsp;|&nbsp;</td>
+            }
+        </tr>
+</table>
+</center>
+<hr>
+
+<div id="TableReport">
+</div>
+
+<script>
+    $('#Period').change(function () {
+
+        if ($('#Period').val() == 1) {
+            $('#Month').prop('disabled', false);   
+            
+            }
+        else {
+            $('#Month').prop('disabled', true);           
+        }
+    });
+</script>

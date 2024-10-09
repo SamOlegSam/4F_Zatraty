@@ -1,0 +1,78 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "ZatratyContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "ZatratyCore",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Autorize]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Expenses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fillials]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FillialsExpenses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Form4F]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Plans]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Roles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TableFillialsExpenses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[get_Exp]",
+         "ObjectType": 3
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

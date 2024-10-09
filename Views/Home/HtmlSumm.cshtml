@@ -1,0 +1,36 @@
+﻿    
+    <table class="table table-striped">
+        <tr>
+            <th>№ п/п</th>
+            <th>Наименование показателя</th>
+        @foreach (var nam in ViewBag.spiszatr)
+            {
+                <th>@nam.Name</th>
+            }
+            <th>Итого</th>
+        </tr>
+    @{
+        int count = 1;
+     }
+     @foreach (var it in ViewBag.listufGroup)
+     
+        {
+            decimal itog = 0;
+            <tr>
+                <td>@count</td>
+                <td>@it.name</td>
+                @foreach (var i in it.spis)
+                {
+                    <td>@i.value</td>
+                    itog = itog + @i.value;
+                }
+                <td>@itog</td>
+                @{
+                    count++;
+                }
+            </tr>
+        }
+
+    </table>
+
+

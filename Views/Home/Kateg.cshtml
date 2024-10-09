@@ -1,0 +1,79 @@
+﻿@model IEnumerable<ZatratyCore.Models.Role>
+
+<h3>Доступ для филиалов</h3>
+<hr>
+
+<div id="ServicesModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content" id='ServicesModalContent'>
+        </div>
+    </div>
+</div>
+
+<div id="ServicesModalDelete" class="modal fade">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content" id='ServicesModalDeleteContent'>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+
+    TH.tab {
+        background: #EFF5FB; /* Цвет фона */
+        border-bottom: double;
+    }
+
+    tr.tab:nth-child(odd) {
+        background: #EFF5FB; /* Цвет фона */
+    }
+
+    tr.tab:nth-child(even) {
+        background: #ffffff; /* Цвет фона */
+    }
+</style>
+
+<table class="table table-striped">
+    <tr>
+        <th>
+
+        </th>
+    @foreach (var it in ViewBag.Listfilial)    
+    {        
+            <th>
+                @it.Filial
+            </th>            
+    }
+    </tr>
+    @foreach (var item in ViewBag.Listplan)
+    {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+            @foreach (var it in ViewBag.Listfilial)
+            {
+                if(Model.FirstOrDefault(i =>i.FillialId ==it.Id && i.PlansId == item.Id) != null)
+                {
+                    <th>
+                        <input type="checkbox" id="@it.Id" name="@item.Id" class="checkbox" checked>
+                    </th>
+                }
+                else
+                {
+                  <th>
+                        <input type="checkbox" id="@it.Id" name="@item.Id" class="checkbox">
+                </th>  
+                }
+                
+            }
+            
+        </tr>
+    }
+
+</table>
+<input type="hidden" class="form-control btn-block" id="UserMod" value="@User.Identity?.Name" />
+<center>
+<p>
+    <button type="button" class="btn btn-outline-secondary" onclick="AddKateg()">Сохранить изменения</button>
+    </p>
+</center>
